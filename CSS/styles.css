@@ -1,0 +1,382 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --secondary:#0081ff;
+    --primary:#e3e6ed;
+}
+.header{
+    background-color:var(--primary);
+    min-height: 90vh;
+}
+/**************** navigation**/
+.nav{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+.nav::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+.nav-brand{
+    float: left;
+    font-size: 30px;
+   color: var(--secondary); 
+}
+.nav-menu{
+    float: right;
+}
+.nav-list{
+    list-style-type: none;  
+}
+.nav-items{
+    float: left;
+    margin-left: 20px;
+     
+}
+.nav-anchor{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.nav-anchor:hover{
+    color: var(--secondary);
+}
+/*************navigation end*/
+
+/*********************** Reusable Components */
+.row{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.row::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+[class^="col-"]{
+    float: left;  
+}
+[class^="col-"]:not(:last-child){
+    margin-right: 60px;
+    margin-bottom: 30px;
+}
+.col-1-of-2{
+    width: calc((100% -  60px) / 2);
+}
+.col-1-of-3{
+    width: calc((100% - (2* 60px)) / 3);
+}
+.col-1-of-4{
+    width: calc((100% - (3* 60px)) / 4);
+}
+/*********************Button */
+.btn{
+    padding: 12px 15px;
+    background-color: var(--secondary);
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+ /******utility classes*/
+ .text-center{
+    text-align: center;
+ }
+
+
+/*************hero start**/
+.hero{
+    padding: 40px 0;
+}
+.hero-heading{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+
+.hero-form-label{
+    font-size: 20px;
+    font-weight: 600;
+}
+.hero-input{
+   padding: 10px 12px;
+}
+
+.hero-image-holder{
+    padding: 30px;
+    position: relative;
+ }
+.hero-image{
+    width: 100%;
+    border-right: 20px solid var(--secondary);
+    border-bottom: 20px solid var(--secondary);
+}
+.hero-image-positioning{
+    position: absolute;
+}
+.rainbow-hero{
+    left: 10px;
+    top: 10px;
+}
+.project-done-hero{
+    bottom: 20px;
+    left: 200px;
+    height: 70px;
+}
+.Beat-Design-hero{
+    bottom: 300px;
+    right: -30px;
+    height: 70px;
+     
+}
+ 
+/***********section-about star**/
+.section-about{
+    padding: 100px 0;
+}
+.section-about-image-holder{
+    padding: 20px;
+}
+.section-about-image{
+    width: 100%;
+    border-right: 20px solid var(--secondary);
+    border-bottom: 20px solid var(--secondary);
+}
+.section-about-heading{
+    font-size: 35px;
+    padding-bottom: 20px;
+}
+.section-about-para{
+    font-size: 19px;
+    padding-bottom: 22px;
+}
+/************SERVICES START*/
+.section-services{
+    background-color: var(--primary);
+    padding: 100px 0;
+}
+.section-services-heading{
+    text-align: center;
+     padding: 20px 0;
+      
+}
+.section-services-heading::after{
+    content: "";
+    background-color:var(--secondary);
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 30px;
+}
+
+.section-services-col-holder::after {
+    content: "";
+    display: table;
+    clear: both; 
+}
+.section-services-icon-holder{
+    float: left;
+    background-color: var(--secondary);
+    padding: 15px;
+    border-radius: 100%;
+    
+}
+.fa-globe{
+    color: white;
+}
+.section-services-textbox{
+    float: right;
+    width: 85%;
+}
+.section-services-textbox-heading{
+    font-size: 17px;
+}
+.section-services-textbox-para{
+    font-size: 19px;
+}
+/********************features start*************/
+.section-features{
+    padding: 100px 0;
+}
+.features-heading{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.features-heading::after{
+    content: "";
+    background-color:var(--secondary);
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 30px;
+}
+.features-image-holder{
+    background-color: var(--secondary);
+}
+
+
+
+.features-image{
+    width: 100%;
+    position: relative;
+    left: 10px;
+    bottom: 10px;
+     
+}
+
+.feature-holder{
+    padding: 20px 0;
+    
+}
+
+
+.feature-holder::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
+.feature-icon-holder{
+    float: left;
+    background-color: var(--secondary);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 43px;
+     
+}
+
+.feature-icon{
+    color: #fff;
+    font-size: 20px;
+}
+
+.feature-textbox{
+     float: right;
+     width: 75%;
+}
+.feature-textbox-heading{
+    font-size: 17px;
+}
+
+
+
+/* gallery start */
+.gallery{
+    background-color: var(--primary);  
+}
+.gallery-heading{
+    text-align: center;
+    padding: 50px;
+}
+.gallery-heading::after{
+    content: "";
+    background-color:var(--secondary);
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 30px;
+}
+.gallery-image-holder{
+   height: 200px;
+}
+.gallery-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* gallery stop */
+
+/* section-partnership stop */
+.section-partnership{
+    padding: 100px;
+}
+.partnership-textbox{
+    
+}
+.partnership-textbox-heading{
+     font-size: 35px;
+     padding-bottom: 15px;
+}
+.partnership-textbox-heading-para1{
+    font-size: 20px;
+    padding-bottom: 18px;
+}
+.partnership-textbox-heading-para2{
+    font-size: 18px;
+}
+.partnership-list{
+    padding: 10px;
+    content: "";
+    display: table;
+    clear: both;
+}
+.partnership-icon-holder{
+    float: left;
+    background-color: var(--secondary);
+    height: 40px;
+    width: 40px;
+    border-radius: 100%;
+    text-align: center;
+    line-height: 43px;
+}
+.partnership-icon{
+    color: #fff;
+    font-size: 20px;
+}
+.partnership-list-textbox{
+    float: right;
+    width: 90%;
+}
+/* section-partnership end */
+
+/* section-testmonies start */
+
+.section-testmonies{
+    padding: 100px;
+    background-color: var(--primary);
+}
+.section-testmonies-heading{
+    text-align: center;
+    padding: 30px;
+}
+.section-testmonies-heading::after{
+    content: "";
+    background-color:var(--secondary);
+    display: block;
+    margin: 0 auto;
+    height: 2px;
+    width: 30px;
+}
+.section-testmonies-textbox{
+    background-color: #fff; 
+    padding: 20px;  
+}
+.section-testmonies-para1{
+    font-size: 18px;
+    padding-bottom: 15px;
+}
+.section-testmonies-heading-2{
+    font-size: 18px;
+     
+}
+.section-testmonies-para2{
+    font-size: 18px;
+}
+/*section-footer start*/
+.section-footer{
+    background-color: #454756;
+}
+.color-white{
+    color: #fff;
+}
+
+
