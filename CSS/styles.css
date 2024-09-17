@@ -335,6 +335,7 @@
 .partnership-list-textbox{
     float: right;
     width: 90%;
+    margin-bottom: 20px;
 }
 /* section-partnership end */
 
@@ -343,6 +344,18 @@
 .section-testmonies{
     padding: 100px;
     background-color: var(--primary);
+}
+.section-testmonies-img-holder{
+    background-color: var(--secondary);
+    width: 50%;
+    margin: 0 auto;
+    margin-top: -200px;
+}
+.section-testmonies-image{
+    width: 100%;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
 }
 .section-testmonies-heading{
     text-align: center;
@@ -374,9 +387,13 @@
 /*section-footer start*/
 .section-footer{
     background-color: #454756;
+     
 }
 .color-white{
     color: #fff;
+}
+.footer-para{
+    font-size: 15px;
 }
 
 
