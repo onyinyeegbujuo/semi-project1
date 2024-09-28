@@ -492,7 +492,7 @@
         height: 60px;
     }
     .Beat-Design-hero{
-        bottom: 160px;
+        bottom: 250px;
         right: -20px;
         height: 60px;
              
@@ -587,9 +587,6 @@
     
     /* section partnership starts */
      
-    .partnership-textbox{
-        
-    }
     .partnership-textbox-heading{
          font-size: 40px;
          padding-bottom: 35px;
@@ -657,9 +654,9 @@
     
 
  @media screen and (max-width:480px) {
-    .header{
+    /* .header{
         padding: 50px;
-    }
+    } */
      
     .nav-brand{
         float: none;
@@ -672,6 +669,9 @@
         top: 60px;
         display: block;
     }
+    .row{
+        padding: 0 32px;
+        }
 
     .hero-heading{
         font-size: 35px;
@@ -682,7 +682,7 @@
      }
      .hero-image-holder{
         width: 100%;
-        padding: 15px;
+        padding: 10px;
     }
     .rainbow-hero{
         left: 15px;
@@ -694,22 +694,128 @@
         height: 50px;
     }
     .Beat-Design-hero{
-        bottom: 160px;
+        bottom: 120px;
         right: -20px;
         height: 50px;
              
     }
-    .section-about{
-         padding: 0 400px;
-    }
+    
     .section-about-heading{
         font-size: 30px;
         padding-bottom: 35px;  
     }
     .section-about-para{
-        font-size: 27px;
+        font-size: 25px;
         padding-bottom: 60px;
     }
+     
+    .section-services-heading{
+        font-size: 30px;
+        padding-bottom: 60px;
+    }
+
+    .section-services-icon-holder{ 
+        padding: 20px;
+    
+    }
+    .section-services-textbox{
+        float: right;
+        width: 70%;
+    }
+    .section-services-textbox-heading{
+        font-size: 23px;
+    }
+    .section-services-textbox-para{
+        font-size: 24px;
+         padding-bottom: 25px;
+    } 
+    
+    .features-heading{
+         font-size: 30px;
+        padding-bottom: 60px;
+    }
+
+    .features-image-holder{
+         width: 90%;
+    }
+    .feature-holder{
+        padding: 30px 0;
+        
+    }
+    .feature-icon-holder{
+        height: 65px;
+        width: 65px;
+        text-align: center;
+        line-height: 75px;
+    }
+    .feature-icon{
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .feature-textbox{
+         width: 67%;
+    }
+    .feature-textbox-heading{
+        font-size: 30px;
+    }
+    .feature-para{
+        font-size: 24px;
+    }
+    .gallery-heading{
+        font-size: 30px;
+    }
+
+    .partnership-textbox-heading{
+         font-size: 30px;
+    }
+    .partnership-textbox-heading-para1{
+        font-size: 24px;
+    }
+    .partnership-textbox-heading-para2{
+        font-size: 24px;
+    }
+    .partnership-icon-holder{
+         
+        height: 65px;
+        width: 65px;
+        line-height: 75px;
+    }
+    .partnership-list-textbox{
+        width: 67%;
+    }
+    .partnership-list-textbox-heading{
+        font-size: 30px;
+    }
+    .partnership-list-textbox-para{
+        font-size: 24px;
+    }
+
+    .section-testmonies-img-holder{
+        width: 60%;
+    }
+    .section-testmonies-heading{
+        padding: 30px;
+        font-size: 30px;
+    }
+     
+    .section-testmonies-para1{
+        font-size: 24px;
+        padding-bottom: 20px;
+    }
+    .section-testmonies-heading-2{
+        font-size: 25px;
+         
+    }
+    .section-testmonies-para2{
+        font-size: 24px;
+    }
+
+    .footer-para{
+        font-size: 18px;
+    }
+
      
  }
 
