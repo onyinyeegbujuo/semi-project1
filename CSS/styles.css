@@ -187,7 +187,10 @@
 .section-services-icon-holder{
     float: left;
     background-color: var(--secondary);
-    padding: 15px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 43px;
     border-radius: 100%;
     
 }
@@ -513,6 +516,7 @@
         /* section services start */
     .section-services{
         padding: 100px 0;
+        
     }
     .section-services-heading{
         font-size: 35px;
@@ -520,7 +524,13 @@
     }
 
     .section-services-icon-holder{ 
-        padding: 25px;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        line-height: 88px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 35px;
     
     }
     .fa-globe{
@@ -528,11 +538,14 @@
         font-size: 25px;
     }
     .section-services-textbox{
-        float: right;
-        width: 70%;
+        float: none;
+        width: 90%;
+        margin: 0 auto;
     }
     .section-services-textbox-heading{
         font-size: 25px;
+        text-align: center;
+        padding-bottom: 20px;
     }
     .section-services-textbox-para{
         font-size: 22px;
@@ -562,6 +575,9 @@
         width: 75px;
         text-align: center;
         line-height: 88px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 30px;
     }
     .feature-icon{
         color: #fff;
@@ -571,9 +587,13 @@
     
     .feature-textbox{
          width: 75%;
+         float: none;
+         margin: 0 auto;
     }
     .feature-textbox-heading{
         font-size: 35px;
+        text-align: center;
+        padding-bottom: 15px;
     }
     .feature-para{
         font-size: 25px;
@@ -606,29 +626,36 @@
         border-radius: 100%;
         text-align: center;
         line-height: 88px;
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 25px;
     }
     .partnership-icon{
         color: #fff;
         font-size: 30px;
     }
     .partnership-list-textbox{
-        float: right;
+        float: none;
         width: 70%;
         margin-bottom: 45px;
+        margin: 0 auto;
          
     }
     .partnership-list-textbox-heading{
         font-size: 35px;
+        text-align: center;
+        padding-bottom: 15px;
     }
     .partnership-list-textbox-para{
         font-size: 27px;
+        padding-bottom: 25px;
     }
 
     /* section testimonies start */
     
     .section-testmonies-img-holder{
         width: 47%;
-        margin-top: -140px;
+        margin-top: -100px;
     }
     .section-testmonies-heading{
         padding: 30px;
@@ -660,7 +687,7 @@
      
     .nav-brand{
         float: none;
-        font-size: 25px;
+        font-size: 17px;
     }
     
     .nav-icon{
@@ -676,13 +703,20 @@
     .hero-heading{
         font-size: 35px;
         margin-bottom: 30px;
+        line-height: 45px;
      }
      .hero-form-label{
         font-size: 25px;
      }
+     .hero-input{
+        /* padding: 10px 12px; */
+        margin-bottom: 30px;
+
+     }
+     
      .hero-image-holder{
         width: 100%;
-        padding: 10px;
+        /* padding: -90px; */
     }
     .rainbow-hero{
         left: 15px;
@@ -691,23 +725,27 @@
     .project-done-hero{
         bottom: 10px;
         left: 100px;
-        height: 50px;
+        height: 40px;
     }
     .Beat-Design-hero{
         bottom: 120px;
         right: -20px;
-        height: 50px;
+        height: 40px;
              
     }
     
     .section-about-heading{
         font-size: 30px;
         padding-bottom: 35px;  
+        line-height: 45px;
     }
     .section-about-para{
-        font-size: 25px;
+        font-size: 22px;
         padding-bottom: 60px;
     }
+     .section-services{
+        text-align: center;
+     }
      
     .section-services-heading{
         font-size: 30px;
@@ -715,18 +753,26 @@
     }
 
     .section-services-icon-holder{ 
-        padding: 20px;
+        width: 65px;
+        height: 65px;
+        text-align: center;
+        line-height: 73px;
+        padding-bottom: 30px;
     
     }
+    .fa-globe{
+        color: white;
+        font-size: 20px;
+    }
     .section-services-textbox{
-        float: right;
         width: 70%;
+        
     }
     .section-services-textbox-heading{
-        font-size: 23px;
+        font-size: 20px;
     }
     .section-services-textbox-para{
-        font-size: 24px;
+        font-size: 22px;
          padding-bottom: 25px;
     } 
     
@@ -743,8 +789,8 @@
         
     }
     .feature-icon-holder{
-        height: 65px;
-        width: 65px;
+        height: 60px;
+        width: 60px;
         text-align: center;
         line-height: 75px;
     }
@@ -758,10 +804,10 @@
          width: 67%;
     }
     .feature-textbox-heading{
-        font-size: 30px;
+        font-size: 25px;
     }
     .feature-para{
-        font-size: 24px;
+        font-size: 22px;
     }
     .gallery-heading{
         font-size: 30px;
@@ -769,12 +815,13 @@
 
     .partnership-textbox-heading{
          font-size: 30px;
+         line-height: 45px;
     }
     .partnership-textbox-heading-para1{
-        font-size: 24px;
+        font-size: 22px;
     }
     .partnership-textbox-heading-para2{
-        font-size: 24px;
+        font-size: 22px;
     }
     .partnership-icon-holder{
          
@@ -783,7 +830,7 @@
         line-height: 75px;
     }
     .partnership-list-textbox{
-        width: 67%;
+        width: 90%;
     }
     .partnership-list-textbox-heading{
         font-size: 30px;
@@ -801,15 +848,15 @@
     }
      
     .section-testmonies-para1{
-        font-size: 24px;
+        font-size: 22px;
         padding-bottom: 20px;
     }
     .section-testmonies-heading-2{
-        font-size: 25px;
+        font-size: 23px;
          
     }
     .section-testmonies-para2{
-        font-size: 24px;
+        font-size: 22px;
     }
 
     .footer-para{
