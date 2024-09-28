@@ -39,6 +39,11 @@
     margin-left: 20px;
      
 }
+.nav-icon{
+    position: absolute;
+    right: 30px;
+    display: none;
+}
 .nav-anchor{
     text-decoration: none;
     color: black;
@@ -264,7 +269,10 @@
      width: 75%;
 }
 .feature-textbox-heading{
-    font-size: 17px;
+    font-size: 20px;
+}
+.feature-para{
+    font-size: 18px;
 }
 
 
@@ -337,6 +345,12 @@
     width: 90%;
     margin-bottom: 20px;
 }
+.partnership-list-textbox-heading{
+    font-size: 25px;
+}
+.partnership-list-textbox-para{
+    font-size: 18px;
+}
 /* section-partnership end */
 
 /* section-testmonies start */
@@ -395,5 +409,310 @@
 .footer-para{
     font-size: 15px;
 }
+/* section footer end */
 
+/* media query for ipad */
+ @media screen and (max-width:900px) {
+    .header{
+        padding: 50px;
+    }
+    .nav{
+        padding: 0 26px;
+    }
+    .nav-brand{
+        float: none;
+    }
+    .nav-menu{
+        float: none;
+        background-color: #fff;
+        padding: 20px;
+        width: 320px;
+        border-radius: 6px;
+        box-shadow: 5px 5px 5px #ccc;
+        display: none;
+    }
+    .nav-items{
+        float: none; 
+        margin-bottom: 20px; 
+    }
+    .nav-icon{
+        position: absolute;
+        right: 90px;
+        top: 65px;
+        display: block;
+    }
+     section{
+        padding: 40px 0 !important;
+     }
+     .row{
+     max-width: 450px;
+     }
+     .row [class^="col-"]{ 
+         float: none;
+         width: 100%;
+         margin-right: 0 !important;
+         margin-bottom: 50px;
+     }
+     .row:not(:last-child){
+        margin-bottom: 0;
+     }
+     
+     .hero-textbox{
+        float: none;
+     }
 
+     .hero-heading{
+        font-size: 45px;
+        margin-bottom: 30px;
+     }
+     .hero-form-label{
+        font-size: 35px;
+     }
+     .hero-image-holder{
+        width: 100%;
+        padding: 30px;
+        position: relative;
+        float: none;
+    }
+
+    .hero-image{
+        margin-top: 20px;
+    }
+
+    .hero-image-positioning{
+         position: absolute;
+    }
+    .rainbow-hero{
+        left: 20px;
+        top: 35px;
+    }
+    .project-done-hero{
+        bottom: 10px;
+        left: 100px;
+        height: 60px;
+    }
+    .Beat-Design-hero{
+        bottom: 160px;
+        right: -20px;
+        height: 60px;
+             
+    }
+        /* section about starts here */
+    .section-about{
+        padding: 100px 0;
+    }
+    .section-about-heading{
+        font-size: 40px;
+        padding-bottom: 30px;  
+    }
+    .section-about-para{
+        font-size: 27px;
+        padding-bottom: 60px;
+    }
+
+        /* section services start */
+    .section-services{
+        padding: 100px 0;
+    }
+    .section-services-heading{
+        font-size: 35px;
+        padding-bottom: 60px;
+    }
+
+    .section-services-icon-holder{ 
+        padding: 25px;
+    
+    }
+    .fa-globe{
+        color: white;
+        font-size: 25px;
+    }
+    .section-services-textbox{
+        float: right;
+        width: 70%;
+    }
+    .section-services-textbox-heading{
+        font-size: 25px;
+    }
+    .section-services-textbox-para{
+        font-size: 22px;
+         padding-bottom: 40px;
+    } 
+        /* section services stops */
+
+        /* section features start */
+
+    .section-features{
+        padding: 100px 0;
+    }
+    .features-heading{
+         font-size: 35px;
+        padding-bottom: 60px;
+    }
+
+    .features-image-holder{
+         width: 90%;
+    }
+    .feature-holder{
+        padding: 40px 0;
+        
+    }
+    .feature-icon-holder{
+        height: 75px;
+        width: 75px;
+        text-align: center;
+        line-height: 88px;
+    }
+    .feature-icon{
+        color: #fff;
+        font-size: 30px;
+        text-align: center;
+    }
+    
+    .feature-textbox{
+         width: 75%;
+    }
+    .feature-textbox-heading{
+        font-size: 35px;
+    }
+    .feature-para{
+        font-size: 25px;
+    }
+
+    /* section Gallery starts */
+    .gallery-heading{
+        padding: 50px;
+        font-size: 35px;
+    }
+    
+    /* section partnership starts */
+     
+    .partnership-textbox{
+        
+    }
+    .partnership-textbox-heading{
+         font-size: 40px;
+         padding-bottom: 35px;
+    }
+    .partnership-textbox-heading-para1{
+        font-size: 27px;
+        padding-bottom: 20px;
+    }
+    .partnership-textbox-heading-para2{
+        font-size: 27px;
+    }
+     
+    .partnership-icon-holder{
+         
+        height: 75px;
+        width: 75px;
+        border-radius: 100%;
+        text-align: center;
+        line-height: 88px;
+    }
+    .partnership-icon{
+        color: #fff;
+        font-size: 30px;
+    }
+    .partnership-list-textbox{
+        float: right;
+        width: 70%;
+        margin-bottom: 45px;
+         
+    }
+    .partnership-list-textbox-heading{
+        font-size: 35px;
+    }
+    .partnership-list-textbox-para{
+        font-size: 27px;
+    }
+
+    /* section testimonies start */
+    
+    .section-testmonies-img-holder{
+        width: 47%;
+        margin-top: -140px;
+    }
+    .section-testmonies-heading{
+        padding: 30px;
+        font-size: 35px;
+    }
+     
+    .section-testmonies-para1{
+        font-size: 22px;
+        padding-bottom: 20px;
+    }
+    .section-testmonies-heading-2{
+        font-size: 25px;
+         
+    }
+    .section-testmonies-para2{
+        font-size: 22px;
+    }
+    /* footer starts */
+    .footer-para{
+        font-size: 20px;
+    }
+}
+    
+
+ @media screen and (max-width:480px) {
+    .header{
+        padding: 50px;
+    }
+     
+    .nav-brand{
+        float: none;
+        font-size: 25px;
+    }
+    
+    .nav-icon{
+        position: absolute;
+        right: 70px;
+        top: 60px;
+        display: block;
+    }
+
+    .hero-heading{
+        font-size: 35px;
+        margin-bottom: 30px;
+     }
+     .hero-form-label{
+        font-size: 25px;
+     }
+     .hero-image-holder{
+        width: 100%;
+        padding: 15px;
+    }
+    .rainbow-hero{
+        left: 15px;
+        top: 25px;
+    }
+    .project-done-hero{
+        bottom: 10px;
+        left: 100px;
+        height: 50px;
+    }
+    .Beat-Design-hero{
+        bottom: 160px;
+        right: -20px;
+        height: 50px;
+             
+    }
+    .section-about{
+         padding: 0 400px;
+    }
+    .section-about-heading{
+        font-size: 30px;
+        padding-bottom: 35px;  
+    }
+    .section-about-para{
+        font-size: 27px;
+        padding-bottom: 60px;
+    }
+     
+ }
+
+ 
+
+ 
