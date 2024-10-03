@@ -152,6 +152,9 @@
     border-right: 20px solid var(--secondary);
     border-bottom: 20px solid var(--secondary);
 }
+.section-about-text-box{
+
+}
 .section-about-heading{
     font-size: 35px;
     padding-bottom: 20px;
@@ -465,21 +468,23 @@
      }
 
      .hero-heading{
+        text-align: center;
         font-size: 45px;
         margin-bottom: 30px;
      }
      .hero-form-label{
-        font-size: 35px;
+        font-size: 25px;
      }
      .hero-image-holder{
         width: 100%;
-        padding: 30px;
+        padding: 15px;
         position: relative;
         float: none;
     }
 
     .hero-image{
         margin-top: 20px;
+        padding: -2px;
     }
 
     .hero-image-positioning{
@@ -503,6 +508,9 @@
         /* section about starts here */
     .section-about{
         padding: 100px 0;
+    }
+    .section-about-text-box{
+         text-align: center;
     }
     .section-about-heading{
         font-size: 40px;
@@ -538,6 +546,7 @@
         font-size: 25px;
     }
     .section-services-textbox{
+        text-align: center;
         float: none;
         width: 90%;
         margin: 0 auto;
@@ -586,6 +595,7 @@
     }
     
     .feature-textbox{
+        text-align: center;
          width: 75%;
          float: none;
          margin: 0 auto;
@@ -606,6 +616,9 @@
     }
     
     /* section partnership starts */
+    .partnership-textbox{
+        text-align: center;
+    }
      
     .partnership-textbox-heading{
          font-size: 40px;
@@ -634,6 +647,9 @@
         color: #fff;
         font-size: 30px;
     }
+    .partnership-list{
+        text-align: center;
+    }
     .partnership-list-textbox{
         float: none;
         width: 70%;
@@ -656,6 +672,9 @@
     .section-testmonies-img-holder{
         width: 47%;
         margin-top: -100px;
+    }
+    .section-testmonies-textbox{
+        text-align: center;
     }
     .section-testmonies-heading{
         padding: 30px;
@@ -697,16 +716,16 @@
         display: block;
     }
     .row{
-        padding: 0 32px;
+        padding: 0 25px;
         }
 
     .hero-heading{
         font-size: 35px;
-        margin-bottom: 30px;
+        /* margin-bottom: 30px; */
         line-height: 45px;
      }
      .hero-form-label{
-        font-size: 25px;
+        font-size: 20px;
      }
      .hero-input{
         /* padding: 10px 12px; */
@@ -716,7 +735,12 @@
      
      .hero-image-holder{
         width: 100%;
-        /* padding: -90px; */
+        padding: 10px;
+        
+    }
+    .hero-image{
+        /* padding: 1px; */
+        width: 100%;
     }
     .rainbow-hero{
         left: 15px;
@@ -733,6 +757,10 @@
         height: 40px;
              
     }
+    .section-about-text-box{
+         padding: 0 40px;
+         text-align: center;
+    }
     
     .section-about-heading{
         font-size: 30px;
@@ -742,6 +770,7 @@
     .section-about-para{
         font-size: 22px;
         padding-bottom: 60px;
+        
     }
      .section-services{
         text-align: center;
@@ -783,6 +812,7 @@
 
     .features-image-holder{
          width: 90%;
+          
     }
     .feature-holder{
         padding: 30px 0;
@@ -808,6 +838,9 @@
     }
     .feature-para{
         font-size: 22px;
+    }
+    .gallery{
+       
     }
     .gallery-heading{
         font-size: 30px;
