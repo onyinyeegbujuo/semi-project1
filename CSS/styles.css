@@ -720,16 +720,16 @@
         }
 
     .hero-heading{
-        font-size: 35px;
+        font-size: 26px;
         /* margin-bottom: 30px; */
-        line-height: 45px;
+        line-height: 35px;
      }
      .hero-form-label{
-        font-size: 20px;
+        font-size: 17px;
      }
      .hero-input{
         /* padding: 10px 12px; */
-        margin-bottom: 30px;
+        margin-bottom: 18px;
 
      }
      
@@ -752,7 +752,7 @@
         height: 40px;
     }
     .Beat-Design-hero{
-        bottom: 120px;
+        bottom: 150px;
         right: -20px;
         height: 40px;
              
@@ -763,12 +763,12 @@
     }
     
     .section-about-heading{
-        font-size: 30px;
+        font-size: 26px;
         padding-bottom: 35px;  
-        line-height: 45px;
+        line-height: 35px;
     }
     .section-about-para{
-        font-size: 22px;
+        font-size: 18px;
         padding-bottom: 60px;
         
     }
@@ -777,7 +777,7 @@
      }
      
     .section-services-heading{
-        font-size: 30px;
+        font-size: 26px;
         padding-bottom: 60px;
     }
 
@@ -798,15 +798,15 @@
         
     }
     .section-services-textbox-heading{
-        font-size: 20px;
+        font-size: 19px;
     }
     .section-services-textbox-para{
-        font-size: 22px;
+        font-size: 18px;
          padding-bottom: 25px;
     } 
     
     .features-heading{
-         font-size: 30px;
+         font-size: 26px;
         padding-bottom: 60px;
     }
 
@@ -834,30 +834,29 @@
          width: 67%;
     }
     .feature-textbox-heading{
-        font-size: 25px;
+        font-size: 19px;
     }
     .feature-para{
-        font-size: 22px;
+        font-size: 18px;
     }
     .gallery{
        
     }
     .gallery-heading{
-        font-size: 30px;
+        font-size: 26px;
     }
 
     .partnership-textbox-heading{
-         font-size: 30px;
-         line-height: 45px;
+         font-size: 26px;
+         line-height: 35px;
     }
     .partnership-textbox-heading-para1{
-        font-size: 22px;
+        font-size: 18px;
     }
     .partnership-textbox-heading-para2{
-        font-size: 22px;
+        font-size: 18px;
     }
     .partnership-icon-holder{
-         
         height: 65px;
         width: 65px;
         line-height: 75px;
@@ -866,10 +865,10 @@
         width: 90%;
     }
     .partnership-list-textbox-heading{
-        font-size: 30px;
+        font-size: 19px;
     }
     .partnership-list-textbox-para{
-        font-size: 24px;
+        font-size: 18px;
     }
 
     .section-testmonies-img-holder{
@@ -877,19 +876,19 @@
     }
     .section-testmonies-heading{
         padding: 30px;
-        font-size: 30px;
+        font-size: 26px;
     }
      
     .section-testmonies-para1{
-        font-size: 22px;
+        font-size: 18px;
         padding-bottom: 20px;
     }
     .section-testmonies-heading-2{
-        font-size: 23px;
+        font-size: 19px;
          
     }
     .section-testmonies-para2{
-        font-size: 22px;
+        font-size: 18px;
     }
 
     .footer-para{
